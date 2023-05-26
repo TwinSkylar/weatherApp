@@ -1,0 +1,30 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Display the weather Lessons Learned:   Asynchronous coding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwinSkylar/weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwinSkylar/weatherApp/issues"
+  },
+  "homepage": "https://github.com/TwinSkylar/weatherApp#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "loader": "^2.1.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

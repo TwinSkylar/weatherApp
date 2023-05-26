@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="UIController.js" defer></script>
+    <title>How's The Weather</title>
+  </head>
+  <body>
+    <div id="location">
+      <div class="locationInfo" id="location_City"></div>
+      <div class="locationInfo" id="location_Time"></div>
+      <div class="locationInfo" id="location_Region"></div>
+      <div class="locationInfo" id="location_Temperature"></div>
+      <div class="locationInfo" id="location_Icon"></div>
+      <form id="searchForm">
+        <input
+          class="city_Input"
+          placeholder="Search Location..."
+          type="text"
+          name="citySearch">
+          </form>
+      <div id="weather"></div>
+      <div class="weatherInfo label" id="weather_FeelsLbl">Feels Like</div>
+      <div class="weatherInfo" id="weather_Feels"></div>
+      <div class="weatherInfo label" id="weather_humidityLbl">Humidity</div>
+      <div class="weatherInfo" id="weather_humidity"></div>
+      <div class="weatherInfo label" id="weather_precipLbl">Precipitation</div>
+      <div class="weatherInfo" id="weather_precip"></div>
+      <div class="weatherInfo label" id="weather_windLbl">Wind Speed</div>
+      <div class="weatherInfo" id="weather_wind"></div>
+      <div class="weatherInfo" id="unitToggle">Display Imperial(°F, mp/h)</div>
+
+    </div>
+    <div id="forecast"></div>
+  </body>
+</html>
