@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = {
   mode: "development",
   entry: {
-    index: "./src/index.js",
+    index: "./src/UIController.js",
   },
   devtool: "inline-source-map",
   devServer: {
@@ -41,8 +41,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      //Sets the favicon
-      favicon: "src/images/todofavicon.png",
       //uses an html as a template before
       template: "src/index.html",
     }),
